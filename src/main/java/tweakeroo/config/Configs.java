@@ -46,8 +46,6 @@ public class Configs
     public static class Generic
     {
         public static final HotkeyedBooleanConfig CARPET_ACCURATE_PLACEMENT_PROTOCOL    = new HotkeyedBooleanConfig("carpetAccuratePlacementProtocol", true, "");
-        public static final HotkeyedBooleanConfig FREE_CAMERA_PLAYER_INPUTS             = new HotkeyedBooleanConfig("freeCameraPlayerInputs", false, "");
-        public static final HotkeyedBooleanConfig FREE_CAMERA_PLAYER_MOVEMENT           = new HotkeyedBooleanConfig("freeCameraPlayerMovement", false, "");
 
         public static final IntegerConfig AFTER_CLICKER_CLICK_COUNT             = new IntegerConfig("afterClickerClickCount", 1, 1, 64);
         public static final DoubleConfig  BLOCK_REACH_DISTANCE                  = new DoubleConfig( "blockReachDistance", 4.5, 0, 8);
